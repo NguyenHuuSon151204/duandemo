@@ -1,0 +1,18 @@
+#include"stdio.h"
+int main(){
+	// Viet mot chuong trinh nhap luong nhan vien,tinh thue thu nhap va luong rong
+	// Voi cac thông so gia su nhu sau//
+	//30% thue thu nhap neu luong la 15 trieu.
+	//20% thue thu nhap neu luong tu 7 den 15 trieu.
+	//10% thue thu nhap neu luong duoi 7 trieu.
+	long luong;
+	long luongrong;
+	printf("nhap luong chua thue cua nhan vien do la:");
+	scanf("%d",&luong);
+	if(luong>=15000000){printf("luong rong cua nhan vien la %d",luongrong=(luong/100)*70);}
+	else if((luong<15000000)and (luong>=7000000)){printf("luong rong cua nhan vien la %d",luongrong=(luong/100)*80);}
+	else{printf("luong rong cua nhan vien la %d",luongrong=(luong/100)*90);}
+	
+	
+}
+	
